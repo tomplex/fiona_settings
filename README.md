@@ -5,6 +5,24 @@ Fiona includes a lot of "magic strings" representings GDAL drivers, CRS values, 
 While it's all quite intuitive and relatively simple, I have always wished there
 was a neater way to manage them all, and so I wrote this.
 
+
+## install
+
+Requires Python3.6+.
+
+with pip:
+
+```bash
+pip install fiona-settings
+```
+
+from source:
+
+```bash
+git clone git@github.com:tomplex/fiona_settings.git
+pip install fiona_settings/
+```
+
 ## examples
 
 ```python
